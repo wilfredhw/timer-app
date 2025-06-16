@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <h1>語音計時器</h1>
+  <div class="timer-container">
+    <input type="number" id="minutes" placeholder="輸入分鐘">
+    <input type="number" id="seconds" placeholder="輸入秒數">
+    <div id="timer-display">00:00</div>
+    <button onclick="startTimer()">開始</button>
+    <button onclick="pauseTimer()">暫停</button>
+    <button onclick="resetTimer()">重置</button>
+  </div>
+</body>
+</html>
